@@ -31,7 +31,7 @@
   
   
 body {
-  font-family: calibri;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mobile-container {
@@ -58,28 +58,34 @@ body {
 }
 
 .topnav a {
- float: left;
   color: white;
-  padding: 1% 10%;
+  padding: 3% 3%;
   text-decoration: none;
-  font-size: 29px;
-  
+  font-size: 70px;
+  display: block;
 }
 
 .topnav a.icon {
- float: right;
-  
+  background: transparent;
+  display: block;
+  position: absolute;
+  height: 100px;
+  width: 4%;
+  right: 0;
+  top: 0;
 }
 
 
   
   .topnav a:hover {
-  background: #900000; 
+  color: Gray;
 }
   
 
 .active {
- background-color: #900000;
+  background-image: url("cut.png");
+                                                height: 100px;
+ background-color: #b30000;
   color: white;
 }
 </style>
@@ -93,17 +99,18 @@ body {
 <div class="topnav">
   
   <a href="index.html" class="active"><div class="Riley">
-  <img src="///*****************************************************************************************8***************/////Logo.png" width="500" height="150">
+  <img src="Logo.png" width="500" height="150">
     </div></a>
   
   
   
+  
   <div id="myLinks">
-   <a href="index.html"><p style="font-family:calibri"><b>Home</b></p></a>
-   <a href="Resume.html"><p style="font-family:calibri"><b>Resume</b></p></a>
-   <a href="Experience.html"><p style="font-family:calibri"><b>Experience</b></p></a>
-   <a href="mailto:riley.bunch@ttu.edu"><p style="font-family:calibri"><b>Contact</b></p></a>
-   <a href="Links.html"><p style="font-family:calibri"><b>Links</b></p></a>
+    <a href="index.html">Home</a>
+    <a href="Resume.html">Resume</a>
+    <a href="Experience.html">Experience</a>
+    <a href="mailto:riley.bunch@ttu.edu">Contact</a>
+    <a href="Links.html">Links</a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
