@@ -1,144 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <title>Riley Bunch</title> 
-    
-  </head>
-  <body>
-    
-<style> 
-  
-  
-  body { margin:0; }
-  
-  
-  
-                             .Riley {
-                           margin-left: 12%;
-                            margin-top: -2%;
-                             }
-  
-  
-  
-  .Text {
-    padding-top: 13%;
-    margin-left:5%;
-    font-size: 20px;
-  }
-  
-  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: calibri;
+  font-size: 30px;
+  margin: 0px;
 }
+  
+  
+  ::-webkit-scrollbar-track {
+background: #051622;
+  } 
+  
+  
 
 .mobile-container {
-  max-width: 100%;
-  background-color: #444;
-  height: 1000px;
-  color: white;
-  border-radius: 0%;
+  max-width: 100000px;
+  text-align: none;
+  margin: 0%;
+  background-color: #051622;
+  height: 1000px; 
+  color: #deb992; 
+  padding: 0px 0px 0px 50px;
 }
-  
 
-                    .topnav {
-                   overflow: hidden;
-                      background-color: transparent;
-                      position: absolute;
-                     width: 100%;
-                     height: 1000px;
-                     margin-top: 0%;
-                      }
+.topnav {
+  overflow: hidden;
+  background-color: #051622;
+  position: relative; 
+  border-bottom-style: solid;
+  border-color: #deb992;
+}
 
 .topnav #myLinks {
   display: none;
- padding-left: 75%;
 }
 
 .topnav a {
-  color: white;
-  padding: 3% 3%;
+  float: left;
+  color: #1ba098;
+  padding: 30px 30px;
   text-decoration: none;
-  font-size: 70px;
-  display: block;
+  font-size: 25px;
 }
 
 .topnav a.icon {
-  background: transparent;
-  display: block;
-  position: absolute;
-  height: 100px;
-  width: 4%;
-  right: 0;
-  top: 0;
+  float: right;
 }
 
-
-  
-  .topnav a:hover {
-  color: Gray;
+.topnav a:hover {
+  color: #deb992;
 }
-  
 
 .active {
-  background-image: url("cut.png");
-                                                height: 100px;
- background-color: #b30000;
-  color: white;
+  background-color: transparent;
+  color: #1ba098;
+} 
+  
+  
+   footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #051622;
+  color: #deb992;
 }
 </style>
-
- 
+</head>
+<body>
+  
+  
 
 
 <div class="mobile-container">
-
-
+  
 <div class="topnav">
-  
-  <a href="index.html" class="active"><div class="Riley">
-  <img src="Logo.png" width="500" height="150">
-    </div></a>
-  
-  
-  
-  
+  <a href="index.html" class="active"><img src="Logo.png" width="60px" height="60px"></a>
   <div id="myLinks">
-    <a href="index.html">Home</a>
-    <a href="Resume.html">Resume</a>
-    <a href="Experience.html">Experience</a>
-    <a href="mailto:riley.bunch@ttu.edu">Contact</a>
-    <a href="Links.html">Links</a>
+    <a href="index.html"><b>Home</b></a>
+    <a href="Experience.html"><b>Experience</b></a>
+    <a href="Resume.html"><b>Resume</b></a>
+    <a href="Contact.html"><b>Contact</b></a>
+    <a href="Links.html"><b>Links</b></a>
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
+<div>
+  <p><small>Hello, my name is</small></p>
+  <h2><b>Riley Bunch</b></h2>
+  <p><small>I am an accomplished senior Civil Engineering student at Texas Tech University,<br>
+  and I am looking forward to finding fitting employemnt.</small></p>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
     
+ <footer>
+  <p><small>Designed and Created By: Riley Bunch 09/15/2020<small></p>
+</footer>
   
-<div class="Text">
-  <h2>Works Cited</h2>
-  <p>This is a list of any online source that I used to create this website. </p>
-  <p> • https://pixabay.com/illustrations/detroit-city-skyline-detroit-city-5096060/<br />
-  > This is the background picture of my heading.</p>
-  <p> • https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar<br />
-    > This is a very rough template for how I constructed the navigation menu.</p>
-   <p> • https://www.logogenie.net/<br />
-     > This is a website where you can make a custom logo, I used elements from this website.</p>
-  <br />
-  <h2>Learn to code</h2>
-  <p>I would highly recommend the following sources if you are interested in learning HTML, CSS, or JavaScript.<br />
-    • https://www.codecademy.com/catalog/all<br />
-    • https://www.w3schools.com/default.asp</p>
-  
-</div>
-
-
-</div>
-
+      
 <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
